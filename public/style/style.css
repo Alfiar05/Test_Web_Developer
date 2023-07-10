@@ -1,0 +1,38 @@
+<style>
+    @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+
+    li {
+        list-style: none;
+        margin: 20px 0 20px 0;
+    }
+
+    .sidebar {
+        background-color: #8CC0DE;
+        width: 250px;
+        height: 100vh;
+        position: fixed;
+        margin-left: -300px;
+        transition: 0.5s;
+    }
+
+    .active-main-content {
+        margin-left: 250px;
+    }
+
+    .active-sidebar {
+        margin-left: 0;
+    }
+
+    #main-content {
+        transition: 0.4s;
+    }
+
+    .sidebar li {
+        list-style: none;
+        margin: 20px 0 20px 0;
+    }
+
+    .sidebar > li > a {
+        text-decoration: none;
+    }
+</style>
